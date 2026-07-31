@@ -12,7 +12,7 @@ https://doi.org/10.5281/zenodo.21464299
 Independent public archive:  
 https://archive.org/details/great-filter-preservation-package-v1-0-20260719
 
-## Canonical preservation package
+## GitHub Release ZIP asset
 
 **Filename**
 
@@ -20,15 +20,15 @@ https://archive.org/details/great-filter-preservation-package-v1-0-20260719
 
 **Byte count**
 
-`299101`
+`300493`
 
 **MD5**
 
-`200d15c815b9795222e29c247e514cfe`
+`481202c4e521b6e2d07c69c6734bd8d0`
 
 **SHA-256**
 
-`acd04dd2a2a326e235063c6a24725f4c9a306442271d7d7fbae7b4b116f9c1c8`
+`b9ccfebbd8a8257b5fd0b2c4e6bceedacd6e3f0d58b61000a637426720b52ff2`
 
 ## Status
 
@@ -41,15 +41,27 @@ https://archive.org/details/great-filter-preservation-package-v1-0-20260719
 
 ## Important distinction
 
-The canonical preservation ZIP is the file explicitly uploaded as a GitHub Release asset.
+The preservation package distributed through this GitHub repository is the ZIP file explicitly uploaded as a GitHub Release asset.
 
-GitHub may automatically generate files labeled **Source code (zip)** and **Source code (tar.gz)**. These files are generated from the repository and are **not** the canonical preservation ZIP.
+GitHub may automatically generate files labeled **Source code (zip)** and **Source code (tar.gz)**. These files are generated from the repository and are **not** the preservation package.
 
 Use only:
 
 `GREAT_FILTER_PRESERVATION_PACKAGE_v1_0_20260719.zip`
 
-and verify it using the SHA-256 value shown above.
+For the GitHub Release asset, verify the file using this SHA-256 value:
+
+`b9ccfebbd8a8257b5fd0b2c4e6bceedacd6e3f0d58b61000a637426720b52ff2`
+
+## Checksum sidecar notice
+
+The immutable GitHub Release v1.0 also contains the asset:
+
+`GREAT_FILTER_PRESERVATION_PACKAGE_v1_0_20260719.zip.sha256`
+
+That sidecar contains an earlier checksum record and does **not** apply to the ZIP asset published in this GitHub Release.
+
+Do not use that sidecar to verify the GitHub Release ZIP. Use the byte count, MD5, and SHA-256 values stated in this README and in the Release notes.
 
 ## Package contents
 
