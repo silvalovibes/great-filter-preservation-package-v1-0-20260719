@@ -2,6 +2,8 @@
 
 This repository is a public preservation mirror of the frozen GREAT FILTER Preservation Package v1.0.
 
+GREAT FILTER is a Japanese-language interdisciplinary civilizational analysis examining artificial intelligence, information systems, institutions, sustainability, existential risk, resource constraints, governance, and whether technological civilization can achieve meaningful self-correction.
+
 ## Canonical record
 
 Zenodo DOI:  
